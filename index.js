@@ -79,10 +79,12 @@ const presidents = [
 
   //BONUS write a script to check if LBJ was a 2 term president. IF he was then alert("LBJ served two terms") else alert "LBJ was one and done"
 
-    const LBJ = presidents[presidents.length-2]
+     const LBJ = presidents[presidents.length-2]
     if(LBJ.terms === 2){
         alert("𝕃𝔹𝕁 𝕤𝕖𝕣𝕧𝕖𝕕 𝕥𝕨𝕠 𝕥𝕖𝕣𝕞𝕤")
     }
     else{
         alert("𝕃𝔹𝕁 𝕨𝕒𝕤 𝕠𝕟𝕖 𝕒𝕟𝕕 𝕕𝕠𝕟𝕖")
-    }
+    } 
+
+    
